@@ -1,70 +1,62 @@
-/* css */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body Styles */
+/*styles.css */
 body{
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-    background-color: #f4f4f4;
+    line-height: 2.5;
+    margin: 0;
+    padding: 0;
 }
-
-/* Heading Style */
 h1{
-    color: #333;
-    text-align: center;
-    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
 }
-
-/* Paragraph Style */
-p{
-    color: #666;
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 20px;
-
+p1{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/*img Style */
-img{
-    display: block;
-    margin: 0 auto 20px;
-    border-radius: 10px;
-}
-/* List Style  */
-ol{
-    list-style-type: square;
-    padding-left: 20px;
-}
-li{
-    color: #333;
-    margin-bottom: 10px;
-}
-
-/*Second Heading */
-h2{
-    color: #333;
-    margin-bottom: 10px;
-    text-decoration: underline;
-}
-
-/* button */
-button{
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: azure;
+header{
+    background-color: #333;
     color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 0;
+
 }
+nav ul{
+    list-style-type: none;
 
+}
+nav ul li{
+    display: inline;
+    margin-right: 1rem;
+    color: burlywood;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
 
-button:hover{
-    background-color: #555;
+}
+main{
+    padding: 2rem;
+    
+
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    line-height: 1.2;
+
+}
+#news-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.news-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
 }
